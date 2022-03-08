@@ -1,6 +1,8 @@
+import { Pagination } from "../../Components/pagination/Pagination";
+
 export default function Listing():JSX.Element
 {
     return(
-        <h1>pagina de listagem</h1>
+        <Pagination/>
     )
 }
